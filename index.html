@@ -7,10 +7,10 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Lato" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/0b6fab0879.js"></script>
 	<title>Wireframe - Activity 2</title>
 </head>
 <body>
-	<script type="text/javascript" src="js.js"></script>
 
 	<nav>
 		<div class="avatar"><img class="avatarImg" src="img/avatar.png"></div>
@@ -23,6 +23,15 @@
 		</ul>
 	</nav>
 
+	<main>
+
+	<div id="toggleIcon">
+		<i class="fa fa-bars" aria-hidden="true"></i>
+	</div>
+	<div id="toggleIcon1" hidden>
+		<i class="fa fa-bars" aria-hidden="true"></i>
+	</div>
+
 	<div class="home">
 		<div class="website">
 			<h1>The Hitman's Bodyguard</h1>
@@ -32,34 +41,68 @@
 	</div>
 
 	<div class="about" id="about">
-		<h3>About</h3>
+		<h3>About the Movie</h3>
 		<div class="aboutPar">
 			<p>The Hitman's Bodyguard is a 2017 American action comedy film directed by Patrick Hughes and written by Tom O'Connor, whose script was on the 2011 Black List survey. The film stars Ryan Reynolds, Samuel L. Jackson, Gary Oldman and Salma Hayek, and follows a bodyguard who is hired to protect a hitman who has to testify at the International Criminal Court.</p>
 
-			<p>The Hitman's Bodyguard was released in the United States on August 18, 2017, and has grossed $176 million worldwide. The film received mixed reviews, with critics praising Reynolds and Jackson's chemistry but criticizing the clichéd plot and execution.</p>
+			<p>The Hitman's Bodyguard was released in the United States on August 18, 2017, and has grossed $176 million worldwide.</p>
 		</div>
 	</div>
 
 	<div class="reviews" id="reviews">
+
+		<div class="ownReview">
+			<h3>Awwwesome!</h3>
+			<p>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</p>
+		</div>
+		
 		<div class="userReviews">
 			<h5>Juan Doe</h5>
-			<img src="img/star.jpg">
+			<p>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</p>
 				<p>Wow, I was so impressed with this movie. I will admit that the first 20 minutes were pretty generic for me and I found myself thinking, "This is pretty much what I expected, ... </p>
 
 			<h5>Hayme Doe</h5>
-			<img src="img/star.jpg">
+			<p>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</p>
 				<p>The Hit-man's Bodyguard is a movie I never knew I wanted to see until I saw the first trailer. I was instantly hooked, and couldn't wait to see it on opening day. Well, I ...</p>
 		</div>
 
-		<h3>User Reviews</h3>
-		
 		<div class="userReviews2">
 			<h5>Juan Doe</h5>
-			<img src="img/star.jpg">
+			<p>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</p>
 				<p>Wow, I was so impressed with this movie. I will admit that the first 20 minutes were pretty generic for me and I found myself thinking, "This is pretty much what I expected, ... </p>
 
 			<h5>Hayme Doe</h5>
-			<img src="img/star.jpg">
+			<p>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</p>
 				<p>The Hit-man's Bodyguard is a movie I never knew I wanted to see until I saw the first trailer. I was instantly hooked, and couldn't wait to see it on opening day. Well, I ...</p>
 		</div>
 
@@ -67,9 +110,15 @@
 
 	<div class="trailer" id="trailer">
 		<h3>Trailer</h3>
-		<iframe width="700" height="315" src="https://www.youtube.com/embed/F4Afusxc2SM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen ></iframe>
+		<iframe src="https://player.vimeo.com/video/224689608" width="640" height="330" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
 
 	<div class="gallery" id="gallery"><h3>Gallery</h3></div>
+
+
+
+
+	</main>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
